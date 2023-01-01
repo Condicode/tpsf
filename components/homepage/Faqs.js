@@ -278,7 +278,7 @@ function Faqs() {
           borderBottom: '10px solid #000',
           transition: { duration: .2, ease: "easeInOut" }
         }}>
-          <h3 onClick={toggleCollapsed1} transition={transition}>What is a virtual event?</h3>
+          <h3 onClick={toggleCollapsed1}>What is a virtual event?</h3>
           <Collapse isOpened={!collapsed1}>
             <p className={styles.Answer}>A virtual event is essentially an event that you can attend from the comfort and convenience of your home, office, or wherever else you can think of, through your personal computer or mobile device. Think of it as attending a standard Movazi webinar but with the ability to engage with anyone else that is attending a conference either physically or online. We are bringing two worlds together for a shared unique experience!</p>
           </Collapse>
@@ -300,7 +300,7 @@ function Faqs() {
           borderBottom: '10px solid #000',
           transition: { duration: .2, ease: "easeInOut" }
         }}>
-          <h3 onClick={toggleCollapsed3} transition={transition}>How much does it cost to attend virtually?</h3>
+          <h3 onClick={toggleCollapsed3}>How much does it cost to attend virtually?</h3>
           <Collapse isOpened={!collapsed3} >
             <p className={styles.Answer}>The cost to register for the virtual conference is the same as the cost to register for the in-person conference. The cost to attend, however, is where you will see the potential savings. Consider that by attending virtually, you won’t need to book travel and lodging accommodations. Remember, you are paying for the education and engagement, which costs the same regardless of how you consume it</p>
           </Collapse>
@@ -322,7 +322,7 @@ function Faqs() {
           borderBottom: '10px solid #000',
           transition: { duration: .2, ease: "easeInOut" }
         }}>
-          <h3 onClick={toggleCollapsed5} transition={transition}>Can my computer or mobile device handle the virtual event?</h3>
+          <h3 onClick={toggleCollapsed5}>Can my computer or mobile device handle the virtual event?</h3>
           <Collapse isOpened={!collapsed5} >
             <p className={styles.Answer}>Most up to date computers and mobile devices such as laptops, desktops, and handheld tablets are capable of running the virtual event for you. Once the Policy & Issues Forum event page is available, you will be able to perform what’s called a System Checker that will analyze your internet browser, internet connection, and network settings to be sure they are optimized for your viewing experience. If there is a warning issued by this System Checker, simply click on the Get Help button or call the support number provided so that we can get you fixed up and ready for the virtual event.</p>
           </Collapse>
@@ -344,7 +344,7 @@ function Faqs() {
           borderBottom: '10px solid #000',
           transition: { duration: .2, ease: "easeInOut" }
         }}>
-          <h3 onClick={toggleCollapsed7} transition={transition}>Do I have access to all of the educational sessions?</h3>
+          <h3 onClick={toggleCollapsed7}>Do I have access to all of the educational sessions?</h3>
           <Collapse isOpened={!collapsed7} >
             <p className={styles.Answer}>In a word, yes! Similar to if you were attending the conference on site, you will be given the opportunity to select which sessions you’d like to attend virtually. It is up to you to decide which sessions interest you in a given time block and to attend those sessions as desired. You may attend as many or as few sessions as you want.</p>
           </Collapse>
