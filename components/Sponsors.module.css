@@ -89,7 +89,7 @@ overflow: hidden;
     margin: 0;
 }
 .Slide__container::before {
-    background: linear-gradient(to right, #f9f4f1 0%, #f9f4f100 100%);
+    background: linear-gradient(to right, #f7f7f7 0%, #f7f7f700 100%);
         content: "";
         height: 100%;
         position: absolute;
@@ -98,7 +98,7 @@ overflow: hidden;
     top:0;
 }
 .Slide__container::after {
-    background: linear-gradient(to right, #f9f4f1 0%, #f9f4f100 100%);
+    background: linear-gradient(to right, #f7f7f7 0%, #f7f7f700 100%);
     content: "";
     height: 100%;
     position: absolute;

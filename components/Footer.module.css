@@ -49,8 +49,6 @@ display: flex;
 }
 @media screen and (max-width: 768px) {
     .Left {
-        /* align-items: center; */
-        /* text-align: center; */
         width: 100%;
         margin-top: 50px;
     }
@@ -132,8 +130,7 @@ display: flex;
     align-items: center;
     width: 100%;
     height: 50px;
-    background-color: #f9f4f1;
-    /* padding: 0 24px; */
+    background-color: #f7f7f7;
     text-align: center;
 }
 .Copyright p {
