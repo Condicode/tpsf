@@ -206,7 +206,7 @@
         padding: 0 20px;
     }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .Right {
         height: 100%;
         gap: 30px;
@@ -247,7 +247,7 @@
         gap: 10px;
     }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .Right .Top {
         height: fit-content;
         flex-direction: column;
@@ -290,14 +290,14 @@
         gap: 10px;
     }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .Right .Bottom {
         height: fit-content;
         flex-direction: column;
         gap: 30px;
     }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .Right .Top__Left {
             width: 100%;
             align-items: center;
@@ -349,7 +349,7 @@
         padding: 10px;
     }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .Card {
         padding: 30px 20px;
         height: fit-content;

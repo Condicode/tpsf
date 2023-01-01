@@ -116,9 +116,9 @@ function AboutHome() {
       },
       {
       scrollTrigger: {
-        trigger: '#card3',
+        trigger: '#card1',
         scrub: 1,
-        start: 'top 95%',
+        start: 'top 80%',
         endTrigger: '',
         end: "+=500",
       },
@@ -135,9 +135,9 @@ function AboutHome() {
       },
       {
       scrollTrigger: {
-        trigger: '#card3',
+        trigger: '#card1',
         scrub: 1,
-        start: 'top 95%',
+        start: 'top 80%',
         endTrigger: '',
         end: "+=500",
       },
