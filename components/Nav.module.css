@@ -1,0 +1,199 @@
+/* .Nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    padding: 30px 150px;
+    background-color: #F7FAFD;
+    z-index: 100;
+} */
+/* @media screen and (max-width: 1440px) {
+    .Nav {
+        padding: 30px 50px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .Nav {
+        padding: 30px 24px;
+    }
+} */
+
+.Left {
+    /* display: flex; */
+    position: relative;
+
+}
+
+.Logo__image {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 100;
+}
+@media screen and (max-width: 768px) {
+    .Logo__image {
+        width: 80px;
+        height: 42px;
+    }
+}
+
+.Center ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+@media screen and (max-width: 1024px) {
+    .Center ul {
+        gap: 20px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .Center {
+        display: none;
+    }
+}
+
+.Center ul li {
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.Right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+@media screen and (max-width: 1024px) {
+    .Right {
+        gap: 20px;
+    }
+
+}
+
+.Right button {
+    height: 40px;
+    padding: 10px 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    background: #a9db51;
+
+    background: linear-gradient(225deg, #a9db51 0%, #61efff 100%);
+
+    background: -moz-linear-gradient(225deg, #a9db51 0%, #61efff 100%);
+
+    background: -webkit-linear-gradient(225deg, #a9db51 0%, #61efff 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#A8DB50", endColorstr="#60EFFF", GradientType=1);
+}
+.Button__inner {
+    transition: all .3s ease-in-out;
+    height: 80px;
+    width: fit-content;
+}
+
+.Right button div {
+    margin: 0;
+    margin-bottom: 15px;
+    /* background-color: #fff; */
+    overflow: hidden;
+}
+
+.Right button:hover .Button__inner {
+    transform: translateY(-35px);
+    transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+    .Right button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+}
+@media screen and (max-width: 420px) {
+    
+}
+.Socials {
+    display: flex;
+    gap: 20px;
+}
+@media screen and (max-width: 1310px) {
+    .Socials {
+        display: none;
+    }
+
+}
+.Socials Svg {
+    cursor: pointer;
+}
+
+.Right__mobile {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .Right__mobile {
+        display: block;
+    }
+    .Right {
+        display: none;
+    }
+}
+.Top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsla(82, 66%, 59%, 1);
+
+    background: linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    background: -moz-linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    background: -webkit-linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#A8DB50", endColorstr="#60EFFF", GradientType=1);
+    border: 1px solid #3e3e3e;
+    border-radius: 100%;
+    /* padding: 4px; */
+    height: 30px;
+    width: 30px;
+}
+
+.Icon {
+    color: #3e3e3e;
+    font-size: 20px;
+}
+.Footer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    bottom: 0;
+    padding: 20px;
+}
+.Footer p {
+    font-size: 14px;
+    color: #636363;
+}
+.Footer span {
+    position: relative;
+    display: block;
+    height: 40px;
+    width: 1px;
+    background-color: #e8e8e8;
+}

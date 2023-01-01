@@ -1,0 +1,294 @@
+.AboutEvent {
+    position: relative;
+    display: flex;
+        justify-content: center;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+@media screen and (max-width: 320px) {
+    .AboutEvent {
+        margin-bottom: 50px;
+    }
+}
+.Container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    padding: 50px 200px;
+    max-width: 1880px;
+    gap: 30px;
+}
+@media screen and (max-width: 1690px) {
+    .Container {
+        padding: 50px 100px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .Container {
+        padding: 50px 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Container {
+        padding: 0;
+        gap: 0;
+    }
+}
+
+.Top {
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+}
+@media screen and (max-width: 1124px) {
+    .Top {
+        padding: 0 50px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Top {
+        padding: 50px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Top {
+        padding: 35px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .Top {
+        padding: 20px;
+    }
+}
+.Top .Left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+    padding: 0;
+    padding-right: 100px;
+}
+
+@media screen and (max-width: 1310px) {
+    .Top .Left {
+        padding-right: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Top .Left {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.Top .Left h2 {
+    font-size: 50px;
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1124px) {
+    .Top .Left h2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Top .Left h2 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Top .Left h2 {
+        font-size: 2.75rem;
+    }
+}
+
+.Top .Left p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1124px) {
+    .Top .Left p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Top .Left p {
+        font-size: 14px;
+    }
+}
+.Top .Right {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .Top .Right {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Top .Right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Top .Right {
+        width: 100%;
+        height: fit-content;
+    }
+}
+.Cards {
+    display: flex;
+    gap: 30px;
+
+}
+@media screen and (max-width: 680px) {
+    .Cards {
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .Cards {
+        flex-direction: column;
+    }
+}
+.Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+    background-color: #e8f2ee;
+    padding: 30px;
+    border-radius: 30px;
+}
+@media screen and (max-width: 560px) {
+    .Card {
+        height: fit-content;
+        
+    }
+}
+.Cards .Card h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 1124px) {
+    .Cards .Card h3 {
+        font-size: 24px;
+        letter-spacing: normal;
+    }
+}
+
+.Cards .Card p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 1124px) {
+    .Cards .Card p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Cards .Card p {
+        font-size: 14px;
+    }
+}
+.Cards .Card button {
+    width: fit-content;
+    padding: 10px 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 18px;
+    border: 1px solid #3e3e3e63;
+    background-color: transparent;
+}
+@media screen and (max-width: 1124px) {
+    .Cards .Card button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Cards .Card button {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+}
+.Bottom {
+    display: flex;
+    padding: 0 100px;
+    width: 100%;
+    height: fit-content;
+    gap: 30px;
+}
+@media screen and (max-width: 1124px) {
+    .Bottom {
+        padding: 0 50px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Bottom {
+        flex-direction: column;
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Bottom {
+        padding: 0 35px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .Bottom {
+        padding: 20px;
+    }
+}
+.Bottom .Card p {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1124px) {
+    .Bottom .Card p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Bottom .Card p {
+        font-size: 14px;
+    }
+}
+.Card__Image {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+}
+.Card__Image .Image {
+    border-radius: 30px;
+}

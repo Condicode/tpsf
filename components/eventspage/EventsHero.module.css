@@ -1,0 +1,309 @@
+.EventsHero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+}
+@media screen and (max-width: 680px) {
+    .EventsHero {
+        margin-bottom: 100px;
+    }
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    max-width: 1880px;
+    padding: 50px 200px;
+    gap: 30px;
+}
+@media screen and (max-width: 1690px) {
+    .Container {
+        padding: 50px 100px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .Container {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .Container {
+        gap: 0;
+    }
+}
+
+.Top {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40vh;
+    padding: 0 100px;
+}
+@media screen and (max-width: 1220px) {
+    .Top {
+        height: 55vh;
+        padding: 50px 100px;
+    }
+}
+@media screen and (max-width: 1124px) {
+    .Top {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .Top {
+        margin-top: 50px;
+        height: fit-content;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Top {
+        padding: 35px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Top {
+        padding: 20px;
+    }
+}
+
+.Title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 65%;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.CTA {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 35%;
+    height: 100%;
+}
+@media screen and (max-width: 680px) {
+    .Title {
+        width: 100%;
+    }
+    .CTA {
+        justify-content: flex-start;
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+.Title h2 {
+    margin-bottom: 30px;
+    font-size: 4rem;
+        line-height: 110%;
+        font-weight: 500;
+        letter-spacing: -1.5px;
+}
+
+.Title p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+@media screen and (max-width: 1124px) {
+    .Title p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Title p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1124px) {
+    .Title h2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Title h2 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Title h2 {
+        font-size: 2.75rem;
+    }
+}
+
+.Top .Buttons {
+    display: flex;
+    gap: 50px;
+}
+
+.Top button {
+    height: 40px;
+    width: fit-content;
+    padding: 10px 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    background: hsl(82, 66%, 59%);
+
+    background: linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsl(186, 100%, 69%) 100%);
+
+    background: -moz-linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    background: -webkit-linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#A8DB50", endColorstr="#60EFFF", GradientType=1);
+}
+.Button__inner {
+    transition: all .3s ease-in-out;
+    height: 80px;
+    width: fit-content;
+}
+
+.Top button div {
+    margin: 0;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.Top button:hover .Button__inner {
+    transform: translateY(-35px);
+    transition: all .3s ease-in-out;
+}
+@media screen and (max-width: 1124px) {
+    .Top button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Top button {
+        height: 30px;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+}
+
+.Bottom {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45vh;
+    padding: 0 100px;
+    gap: 30px;
+}
+@media screen and (max-width: 1124px) {
+    .Bottom {
+        padding: 0 50px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Bottom {
+    align-items: flex-start;
+        height: 60vh;
+        padding: 0 50px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .Bottom {
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Bottom {
+        padding: 35px;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Bottom {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Bottom {
+        height: fit-content;
+    }
+}
+.Bottom .Left {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 66.66666%;
+    gap: 30px;
+}
+@media screen and (max-width: 1124px) {
+    .Bottom .Left {
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .Bottom .Left {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 520px) {
+    .Bottom .Left {
+        gap: 10px;
+    }
+}
+.Bottom .Right {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 33.33333%;
+}
+@media screen and (max-width: 680px) {
+    .Bottom .Right {
+        width: 100%;
+    }
+}
+
+.EventsHero__Image {
+    position: relative;
+    width: 100%;
+    height: 65%;
+}
+@media screen and (max-width: 680px) {
+    .EventsHero__Image {
+        height: 100%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .EventsHero__Image {
+        height: 30vh;
+    }
+}
+
+.EventsHero__Image .Image {
+    border-radius: 30px;
+}

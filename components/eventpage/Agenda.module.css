@@ -1,0 +1,223 @@
+.Agenda {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 100px;
+    background-color: #F1DFDF;
+}
+@media screen and (max-width: 320px) {
+    .Agenda {
+        margin-bottom: 50px;
+    }
+}
+
+.Container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    padding: 100px 200px;
+    max-width: 1880px;
+}
+@media screen and (max-width: 1690px) {
+    .Container {
+        padding: 100px 100px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .Container {
+        padding: 100px;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .Container {
+        padding: 100px 50px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Container {
+        padding: 100px 35px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Container {
+        padding: 100px 20px;
+    }
+}
+.Title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 10%;
+    border-radius: 30px;
+    padding: 0 100px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .Title {
+        width: 100%;
+        padding: 0;
+    }
+}
+.Title h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 1124px) {
+    .Title h2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Title h2 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Title h2 {
+        font-size: 2.75rem;
+    }
+}
+.Title p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1124px) {
+    .Title p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Title p {
+        font-size: 14px;
+    }
+}
+.Cards {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    padding: 0 100px;
+    gap: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .Cards {
+        padding: 0 50px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Cards {
+        flex-direction: column;
+        padding: 0;
+        height: fit-content;
+    }
+}
+.Card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: fit-content;
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid #3e3e3e63;
+    padding: 30px;
+}
+@media screen and (max-width: 1460px) {
+    .Cards {
+        gap: 30px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .Cards {
+        padding: 0;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Cards {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        height: fit-content;
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 1220px) {
+    .Card {
+        padding: 20px;
+    }
+}
+
+.Cards h4 {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    width: fit-content;
+    border: 1px solid #3e3e3e63;
+}
+
+.Cards h3 {
+    font-size: 24px;
+}
+@media screen and (max-width: 1124px) {
+    .Bottom h3 {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Bottom h3 {
+        font-size: 20px;
+    }
+}
+.Cards p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 1124px) {
+    .Cards p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+
+.Speaker {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+}
+
+.Speaker__image {
+    border-radius: 100%;
+}

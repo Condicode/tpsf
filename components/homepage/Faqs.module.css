@@ -1,0 +1,129 @@
+.Faqs {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 100px;
+    background-color: #F1DFDF;
+}
+@media screen and (max-width: 320px) {
+    .Faqs {
+        margin-bottom: 50px;
+    }
+}
+
+.Container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    padding: 100px 200px;
+    max-width: 1880px;
+}
+@media screen and (max-width: 1460px) {
+    .Container {
+        padding: 100px 0;
+    }
+}
+@media screen and (max-width: 520px) {
+    .Container {
+        padding: 50px 35px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .Container {
+        padding: 50px 20px;
+    }
+}
+
+.Container h2 {
+    margin-bottom: 30px;
+    font-size: 4rem;
+        line-height: 110%;
+        font-weight: 500;
+        letter-spacing: -1.5px;
+}
+@media screen and (max-width: 420px) {
+    .Container h2 {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Container h2 {
+        font-size: 2.75rem;
+    }
+}
+
+.Container ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    gap: 30px;
+}
+
+.Container ul li {
+    position: relative;
+    width: 50%;
+    height: fit-content;
+    padding: 30px;
+    border-bottom: 1px solid #3e3e3e63;
+    border-radius: 20px;
+    border: 1px solid #3e3e3e63;
+    cursor: pointer;
+}
+@media screen and (max-width: 1124px) {
+    .Container ul li {
+        padding: 15px;
+        width: 70%;
+    }
+}
+@media screen and (max-width: 520px) {
+    .Container ul li {
+        width: 100%;
+    }
+}
+
+.Container h3 {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+@media screen and (max-width: 375px) {
+    .Container h3 {
+        font-size: 20px;
+    }
+}
+
+.Container .One {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: fit-content;
+    margin-bottom: 20px;
+    border: 1px solid #3e3e3e63;
+    border-radius: 20px;
+
+}
+.Container p {
+    font-size: 18px;
+    padding: 20px;
+}
+@media screen and (max-width: 420px) {
+    .Container p {
+        padding: 0;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .Container p {
+        font-size: 14px;
+    }
+}

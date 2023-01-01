@@ -1,0 +1,547 @@
+.Speakers {
+    position: relative;
+    display: flex;
+        justify-content: center;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 100px;
+}
+@media screen and (max-width: 320px) {
+    .Speakers {
+        margin-bottom: 50px;
+    }
+}
+.Container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 50px 200px;
+    max-width: 1880px;
+    gap: 30px;
+}
+@media screen and (max-width: 1690px) {
+    .Container {
+        padding: 50px 100px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .Container {
+        padding: 0 100px;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .Container {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Container {
+        padding: 35px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Container {
+        padding: 0 20px;
+    }
+}
+.Keynote {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    padding: 0 100px;
+
+}
+@media screen and (max-width: 1460px) {
+    .Keynote {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Keynote {
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+
+
+.Keynote .Left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+@media screen and (max-width: 768px) {
+    .Keynote .Left {
+        padding: 0;
+        width: 100%;
+    }
+}
+
+.Keynote .Left h2 {
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-size: 4rem;
+}
+@media screen and (max-width: 1124px) {
+    .Keynote .Left h2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Keynote .Left h2 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Keynote .Left h2 {
+        font-size: 2.75rem;
+    }
+}
+.Keynote .Left h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.Keynote .Left p {
+    font-size: 18px;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+@media screen and (max-width: 1124px) {
+    .Keynote .Left p {
+        font-size: 16px;
+    }
+}
+.Keynote .Right {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding: 0 0 0 100px;
+}
+
+@media screen and (max-width: 1440px) {
+    .Keynote .Right {
+        padding: 0;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Keynote .Right {
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+.Image {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+}
+
+@media screen and (max-width: 1440px) {
+    .Image {
+        width: 90%;
+        height: 65vh;
+    }
+}
+
+@media screen and (max-width: 1310px) {
+    .Image {
+        width: 100%;
+        height: 65vh;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .Image {
+        width: 100%;
+        height: 55vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Image {
+        width: 70%;
+        height: 55vh;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .Image {
+        width: 80%;
+        height: 55vh;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .Image {
+        width: 100%;
+        height: 55vh;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .Image {
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+.Image .Keynote__image {
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.Other__speakers {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    padding: 50px 100px;
+    text-align: center;
+}
+@media screen and (max-width: 1460px) {
+    .Other__speakers {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .Other__speakers {
+        height: fit-content;
+    }
+}
+.Title {
+    position: relative;
+    height: fit-content;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+@media screen and (max-width: 420px) {
+    .Title {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+.Title h3 {
+    font-size: 50px;
+    font-size: 3.5rem;
+}
+
+@media screen and (max-width: 1124px) {
+    .Title h3 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Title h3 {
+        font-size: 2.75rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Title h3 {
+        font-size: 2rem;
+    }
+}
+.Inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 65%;
+    height: 100%;
+    border: 1px solid #3e3e3e63;
+    border-radius: 30px;
+    padding: 30px;
+}
+@media screen and (max-width: 680px) {
+    .Inner {
+    width: 75%;
+    }
+}
+
+.Speaker__Cards {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    gap: 30px;
+}
+.Speaker__Cards .Left {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+}
+.Speaker__Cards .Right {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+}
+@media screen and (max-width: 1124px) {
+    .Speaker__Cards {
+        gap: 20px;
+    }
+    .Speaker__Cards .Left {
+        gap: 20px;
+    }
+    .Speaker__Cards .Right {
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .Speaker__Cards {
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .Speaker__Cards .Left {
+        width: 100%;
+        gap: 50px;
+    }
+    
+    .Speaker__Cards .Right {
+        width: 100%;
+            gap: 50px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .Speaker__Cards {
+            height: fit-content;
+            gap: 30px;
+        }
+    .Speaker__Cards .Left {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .Speaker__Cards .Right {
+        flex-direction: column;
+        gap: 30px;
+
+    }
+}
+.Speaker__Cards h4 {
+    font-size: 26px;
+    margin-bottom: 30px;
+    letter-spacing: normal;
+}
+@media screen and (max-width: 1220px) {
+    .Speaker__Cards h4 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Speaker__Cards h4 {
+        font-size: 20px;
+    }
+}
+
+.Speaker__Cards p {
+    font-size: 18px;
+}
+@media screen and (max-width: 1124px) {
+    .Speaker__Cards p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Speaker__Cards p {
+        font-size: 14px;
+    }
+}
+.Speaker__Cards .One {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #3e3e3e63;
+    border-radius: 30px;
+    background-color: #f9f4f1;
+    padding: 30px;
+}
+@media screen and (max-width: 1220px) {
+    .Speaker__Cards .One {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .Speaker__Cards .One {
+        padding: 50px;
+    }
+}
+.SpeakerOne__Image {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 1220px) {
+    .SpeakerOne__Image {
+        width: 100px;
+        height: 100px;
+    }
+}
+.SpeakerOne__Image .SpeakerImage {
+    border-radius: 100%;
+}
+.Speaker__Cards .Two {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #3e3e3e63;
+    border-radius: 30px;
+    background-color: #f9f4f1;
+    padding: 30px;
+
+
+}
+@media screen and (max-width: 1220px) {
+    .Speaker__Cards .Two {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .Speaker__Cards .Two {
+        padding: 50px;
+    }
+}
+.Speaker__Cards .Three {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #3e3e3e63;
+    border-radius: 30px;
+    background-color: #f9f4f1;
+    padding: 30px;
+
+
+}
+@media screen and (max-width: 1220px) {
+    .Speaker__Cards .Three {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .Speaker__Cards .Three {
+        padding: 50px;
+    }
+}
+.Speaker__Cards .Four {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #3e3e3e63;
+    border-radius: 30px;
+    background-color: #f9f4f1;
+    padding: 30px;
+
+
+}
+@media screen and (max-width: 1220px) {
+    .Speaker__Cards .Four {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .Speaker__Cards .Four {
+        padding: 50px;
+    }
+}
+.Other__speakers button {
+    height: 40px;
+    width: fit-content;
+    padding: 10px 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 18px;
+    margin: 50px 0;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 100;
+    background: hsla(82, 66%, 59%, 1);
+
+    background: linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    background: -moz-linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    background: -webkit-linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#A8DB50", endColorstr="#60EFFF", GradientType=1);
+}
+.Button__inner {
+    transition: all .3s ease-in-out;
+    height: 80px;
+    width: fit-content;
+}
+
+.Other__speakers button div {
+    margin: 0;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.Other__speakers button:hover .Button__inner {
+    transform: translateY(-35px);
+    transition: all .3s ease-in-out;
+}
+@media screen and (max-width: 1124px) {
+    .Other__speakers button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Other__speakers button {
+        height: 30px;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+}

@@ -1,0 +1,384 @@
+.Blog {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 100px;
+    border-bottom: 1px solid #e8e8e8;
+}
+@media screen and (max-width: 320px) {
+    .Blog {
+        margin-bottom: 50px;
+    }
+}
+.Container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    padding: 50px 200px;
+    gap: 30px;
+    max-width: 1880px;
+}
+@media screen and (max-width: 1690px) {
+    .Container {
+        padding: 50px 100px;
+    }
+}
+@media screen and (max-width: 1460px) {
+    .Container {
+        padding: 0 100px;
+    }
+}
+@media screen and (max-width: 1124px) {
+    .Container {
+        padding: 0 50px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .Container {
+        padding: 35px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .Container {
+        padding: 0 20px;
+    }
+}
+
+.Title {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    border-radius: 30px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .Title {
+        width: 100%;
+    }
+}
+
+.Title h2 {
+    margin-bottom: 30px;
+    font-size: 4rem;
+        line-height: 110%;
+        font-weight: 500;
+        letter-spacing: -1.5px;
+}
+@media screen and (max-width: 1124px) {
+    .Title h2 {
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width: 420px) {
+    .Title h2 {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Title h2 {
+        font-size: 2.75rem;
+    }
+}
+
+.Title p {
+    font-size: 18px;
+    line-height: 1.9;
+        letter-spacing: -0.02em;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 1124px) {
+    .Title p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Title p {
+        font-size: 14px;
+    }
+}
+
+.Cards {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    padding: 0 100px;
+    gap: 50px;
+}
+@media screen and (max-width: 1460px) {
+    .Cards {
+        gap: 30px;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 1124px) {
+    .Cards {
+        padding: 0;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Cards {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        height: fit-content;
+        gap: 30px;
+    }
+}
+
+.One {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.Two {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    
+}
+
+
+.Three {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+@media screen and (max-width: 768px) {
+    .One {
+        width: 60%;
+    }
+    .Two {
+        width: 60%;
+    }
+    .Three {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 680px) {
+    .One {
+        width: 70%;
+    }
+
+    .Two {
+        width: 70%;
+    }
+
+    .Three {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 570px) {
+    .One {
+        width: 80%;
+    }
+
+    .Two {
+        width: 80%;
+    }
+
+    .Three {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .One {
+        width: 90%;
+    }
+
+    .Two {
+        width: 90%;
+    }
+
+    .Three {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .One {
+        width: 100%;
+    }
+
+    .Two {
+        width: 100%;
+    }
+
+    .Three {
+        width: 100%;
+    }
+}
+
+.Cards .Top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 35vh;
+    border-radius: 30px;
+}
+@media screen and (max-width: 420px) {
+    .Cards .Top {
+        height: 30vh;
+    }
+}
+.Two .Top {
+    border-bottom: none;
+}
+
+.Top__image {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+.Top__image .Image {
+    border-radius: 30px;
+}
+
+.Cards .Bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    padding: 30px 0;
+}
+@media screen and (max-width: 1124px) {
+    .Cards .Bottom {
+        padding: 20px;
+    }
+    .Top__image {
+        height: 100%;
+    }
+}
+
+.Bottom h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+        letter-spacing: normal;
+}
+@media screen and (max-width: 1124px) {
+    .Bottom h3 {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Bottom h3 {
+        font-size: 20px;
+    }
+}
+.Bottom h4 {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: fit-content;
+    border: 1px solid #3e3e3e63;
+}
+
+.Bottom p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 1124px) {
+    .Bottom p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Bottom p {
+        font-size: 14px;
+    }
+}
+
+.CTA {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CTA button {
+    height: 40px;
+    width: fit-content;
+    padding: 10px 20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    background: hsla(82, 66%, 59%, 1);
+
+    background: linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    background: -moz-linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    background: -webkit-linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#A8DB50", endColorstr="#60EFFF", GradientType=1);
+}
+.Button__inner {
+    transition: all .3s ease-in-out;
+    height: 80px;
+    width: fit-content;
+}
+
+.CTA button div {
+    margin: 0;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.CTA button:hover .Button__inner {
+    transform: translateY(-35px);
+    transition: all .3s ease-in-out;
+}
+@media screen and (max-width: 1124px) {
+    .CTA button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .CTA button {
+        height: 30px;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+}
+
+.CTA h3 {
+    border: 1px solid #3e3e3e63;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+@media screen and (max-width: 1124px) {
+    .CTA h3 {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,303 @@
+.EventReviews {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+}
+.Container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1880px;
+    height: fit-content;
+    padding: 50px 200px;
+}
+
+@media screen and (max-width: 1690px) {
+    .Container {
+        padding: 50px 100px;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .Container {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Container {
+        padding: 35px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Container {
+        padding: 0 20px;
+    }
+}
+
+.Title {
+    position: relative;
+    height: fit-content;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+@media screen and (max-width: 420px) {
+    .Title {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+.Title h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-size: 4rem;
+}
+@media screen and (max-width: 1124px) {
+    .Title h2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Title h2 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Title h2 {
+        font-size: 2.75rem;
+    }
+}
+
+.Testimonies {
+    position: relative;
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 35vh 10vh 10vh 35vh;
+    column-gap: 2rem;
+    margin-bottom: 100px;
+    width: 100%;
+    padding: 0 100px;
+}
+@media screen and (max-width: 1460px) {
+    .Testimonies {
+        padding: 0;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .Testimonies {
+        padding: 0;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Testimonies {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
+.Card1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 30px;
+    border: 1px solid #3e3e3e;
+    border: 1px solid #3e3e3e63;
+    padding: 30px;
+    cursor: pointer;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+@media screen and (max-width: 1124px) {
+    .Card1 {
+        padding: 20px;
+    }
+}
+
+.Card2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 30px;
+    border: 1px solid #3e3e3e;
+    border: 1px solid #3e3e3e63;
+    padding: 30px;
+    cursor: pointer;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+@media screen and (max-width: 1124px) {
+    .Card2 {
+        padding: 20px;
+    }
+}
+
+.Card3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 30px;
+    border: 1px solid #3e3e3e;
+    border: 1px solid #3e3e3e63;
+    padding: 30px;
+    cursor: pointer;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+@media screen and (max-width: 1124px) {
+    .Card3 {
+        padding: 20px;
+    }
+}
+
+.Card4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 30px;
+    border: 1px solid #3e3e3e;
+    border: 1px solid #3e3e3e63;
+    padding: 30px;
+    cursor: pointer;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+@media screen and (max-width: 1124px) {
+    .Card4 {
+        padding: 20px;
+    }
+}
+
+.Card5 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 30px;
+    border: 1px solid #3e3e3e;
+    border: 1px solid #3e3e3e63;
+    padding: 30px;
+    cursor: pointer;
+    grid-column: 2/3;
+    grid-row: 3/5;
+}
+@media screen and (max-width: 1124px) {
+    .Card5 {
+        padding: 20px;
+    }
+}
+
+.Card6 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 30px;
+    border: 1px solid #3e3e3e;
+    border: 1px solid #3e3e3e63;
+    padding: 30px;
+    cursor: pointer;
+    grid-column: 3/4;
+    grid-row: 2/5;
+}
+@media screen and (max-width: 1124px) {
+    .Card6 {
+        padding: 20px;
+    }
+}
+
+.Card:nth-child(2) {
+    height: 600px;
+}
+
+.Testimonies .Top {
+    display: flex;
+}
+@media screen and (max-width: 420px) {
+    .Testimonies .Top {
+        margin-bottom: 10px;
+    }
+}
+
+.Testimonies h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: normal;
+}
+@media screen and (max-width: 1220px) {
+    .Testimonies h3 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Testimonies h3 {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Testimonies h3 {
+        font-size: 20px;
+    }
+}
+
+.Testimonies h4 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: normal;
+}
+@media screen and (max-width: 1124px) {
+    .Testimonies h4 {
+        font-size: 18px;
+    }
+}
+
+.Testimonies p {
+    font-size: 16px;
+}
+@media screen and (max-width: 1124px) {
+    .Testimonies p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Testimonies p {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Testimonies p {
+        font-size: 14px;
+    }
+}
+.Icon {
+    color: #a9db51;
+    font-size: 24px;
+}

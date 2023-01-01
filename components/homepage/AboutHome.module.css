@@ -1,0 +1,404 @@
+.AboutHome {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 100px;
+    
+}
+@media screen and (max-width: 768px) {
+    .AboutHome {
+        height: fit-content;
+    }
+}
+@media screen and (max-width: 320px) {
+    .AboutHome {
+        margin-bottom: 50px;
+    }
+}
+
+.Container {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    padding: 50px 200px;
+    gap: 30px;
+    max-width: 1880px;
+    overflow: hidden;
+}
+@media screen and (max-width: 1690px) {
+    .Container {
+        padding: 50px 100px;
+    }
+}
+@media screen and (max-width: 1460px) {
+    .Container {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 1220px) {
+    .Container {
+        gap: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Container {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+.Left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    padding: 0 100px;
+}
+@media screen and (max-width: 1124px) {
+    .Left {
+        padding: 0 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Left {
+        padding: 50px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 520px) {
+    .Left {
+        padding: 35px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .Left {
+        padding: 20px;
+    }
+}
+
+.Left h2 {
+    font-size: 5rem;
+    line-height: 110%;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 1124px) {
+    .Left h2 {
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width: 420px) {
+    .Left h2 {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Left h2 {
+        font-size: 2.75rem;
+    }
+}
+
+.Left p {
+    font-size: 18px;
+    line-height: 1.9;
+    letter-spacing: -0.02em;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 1124px) {
+    .Left p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Left p {
+        font-size: 14px;
+    }
+}
+.Left button {
+    height: 40px;
+    width: fit-content;
+    padding: 10px 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    background: hsla(82, 66%, 59%, 1);
+
+    background: linear-gradient(225deg, #a9db51 0%, #61efff 100%);
+
+    background: -moz-linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    background: -webkit-linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#A8DB50", endColorstr="#60EFFF", GradientType=1);
+}
+
+.Button__inner {
+    transition: all .3s ease-in-out;
+    height: 80px;
+    width: fit-content;
+}
+
+.Left button div {
+    margin: 0;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.Left button:hover .Button__inner {
+    transform: translateY(-35px);
+    transition: all .3s ease-in-out;
+}
+@media screen and (max-width: 1124px) {
+    .Left button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Left button {
+        height: 30px;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+}
+.Right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    padding: 0;
+    padding-right: 100px;
+    
+}
+@media screen and (max-width: 1124px) {
+    .Right {
+        padding: 0 50px 0 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Right {
+        padding: 0 50px;
+        width: 100%;
+        height: fit-content;
+    }
+}
+@media screen and (max-width: 520px) {
+    .Right {
+        padding: 0 35px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .Right {
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Right {
+        height: 100%;
+        gap: 30px;
+    }
+}
+.Right .Top {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    gap: 20px;
+}
+
+.Right .Top__Left {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+}
+.Right .Top__Right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+    height: 100%;
+}
+@media screen and (max-width: 768px) {
+    .Right .Top {
+        height: 40vh;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .Right .Top {
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Right .Top {
+        height: fit-content;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+.Right .Bottom {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    gap: 20px;
+}
+
+.Right .Bottom__Left {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+}
+.Right .Bottom__Right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+    height: 100%;
+}
+@media screen and (max-width: 768px) {
+    .Right .Bottom {
+        height: 40vh;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .Right .Bottom {
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Right .Bottom {
+        height: fit-content;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Right .Top__Left {
+            width: 100%;
+            align-items: center;
+        }
+    
+        .Right .Top__Right {
+            width: 100%;
+            align-items: center;
+        }
+    .Right .Bottom__Left {
+            width: 100%;
+            align-items: center;
+        }
+    .Right .Bottom__Right {
+            width: 100%;
+            align-items: center;
+    }
+}
+
+.Card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    border: 1px solid #3e3e3e;
+    border-bottom: 10px solid #3e3e3e;
+    border-radius: 30px;
+    padding: 30px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1220px) {
+    .Card {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 1124px) {
+    .Card {
+        width: 100%;
+        height: 90%;
+    padding: 20px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .Card {
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Card {
+        padding: 30px 20px;
+        height: fit-content;
+    }
+}
+
+.Card h3 {
+    font-size: 30px;
+}
+@media screen and (max-width: 1124px) {
+    .Card h3 {
+        font-size: 24px;
+    }
+}
+
+.Card p {
+    font-size: 18px;
+}
+@media screen and (max-width: 1124px) {
+    .Card p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Card p {
+        font-size: 14px;
+    }
+}
+.Bg__image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.Svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsla(82, 66%, 59%, 1);
+    background: linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    background: -moz-linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#A8DB50", endColorstr="#60EFFF", GradientType=1);
+    border: 2px solid #3e3e3e;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+.Icon {
+    color: #3e3e3e;
+    font-size: 36px;
+}

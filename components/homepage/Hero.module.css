@@ -1,0 +1,443 @@
+.Hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 100px;
+}
+@media screen and (max-width: 768px) {
+    .Hero {
+        height: fit-content;
+    }
+}
+@media screen and (max-width: 320px) {
+    .Hero {
+        margin-bottom: 50px;
+    }
+}
+.Container {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* top: 110px; */
+    padding: 50px 200px;
+    align-items: center;
+    max-width: 1880px;
+}
+@media screen and (max-width: 1690px) {
+    .Container {
+        padding: 50px 100px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .Container {
+        padding: 0;
+        }
+}
+
+@media screen and (max-width: 768px) {
+    .Container {
+        flex-direction: column;
+    }
+}
+
+.Left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    padding: 0 100px;
+}
+@media screen and (max-width: 1440px) {
+    .Left {
+        padding: 0;
+        padding-left: 100px;
+        }
+}
+@media screen and (max-width: 1220px) {
+    .Left {
+        padding: 0;
+        padding-left: 100px;
+        padding-right: 50px;
+    }
+}
+@media screen and (max-width: 1124px) {
+    .Left {
+        padding: 0 50px;
+        }
+}
+@media screen and (max-width: 768px) {
+    .Left {
+        width: 100%;
+        height: 55vh;
+        padding: 0 50px;
+        justify-content: flex-end;
+    }
+}
+@media screen and (max-width: 520px) {
+    .Left {
+        padding: 35px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .Left {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Left {
+        height: 65vh;
+    }
+}
+
+.Left h1 {
+    margin-bottom: 30px;
+    font-size: 6rem;
+        line-height: 100%;
+        font-weight: 500;
+        letter-spacing: -2px;
+}
+@media screen and (max-width: 1220px) {
+    .Left h1 {
+        font-size: 4.5rem;
+    }
+}
+@media screen and (max-width: 1124px) {
+    .Left h1 {
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 420px) {
+    .Left h1 {
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Left h1 {
+        font-size: 3rem;
+    }
+}
+
+.Left p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    max-width: 30rem;
+}
+@media screen and (max-width: 1124px) {
+    .Left p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Left p {
+        font-size: 14px;
+    }
+}
+
+.List {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    gap: 30px;
+    margin-bottom: 50px;
+    max-width: 30rem;
+}
+@media screen and (max-width: 1124px) {
+    .List {
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+
+}
+@media screen and (max-width: 375px) {
+    .List {
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+
+.List__Left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    gap: 20px;
+}
+
+.List__Right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    gap: 20px;
+}
+@media screen and (max-width: 1124px) {
+    .List__Left {
+        gap: 10px;
+    }
+    .List__Right {
+        gap: 10px;
+    }
+
+}
+
+.Top {
+    width: 100%;
+    height: 50%;
+}
+
+.Bottom {
+    width: 100%;
+    height: 50%;
+}
+
+.List ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+@media screen and (max-width: 1124px) {
+    .List ul {
+        gap: 10px;
+    }
+    .List ul li {
+        font-size:14px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .List ul li {
+        font-size: 12px;
+    }
+}
+
+.Left .Buttons {
+    display: flex;
+    gap: 30px;
+}
+
+
+.Left button {
+    height: 40px;
+    padding: 10px 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    color: #3e3e3e;
+    font-weight: normal;
+    overflow: hidden;
+    background: #a9db51;
+
+    background: linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    background: -moz-linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    background: -webkit-linear-gradient(225deg, hsla(82, 66%, 59%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#A8DB50", endColorstr="#60EFFF", GradientType=1);
+}
+.Button__inner {
+    transition: all .3s ease-in-out;
+    height: 80px;
+    width: fit-content;
+}
+.Left button div {
+    margin: 0;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.Left button:hover .Button__inner {
+    transform: translateY(-35px);
+    transition: all .3s ease-in-out;
+}
+.Left button:nth-child(2) {
+    border: 1px solid #3e3e3e;
+    background: transparent;
+}
+@media screen and (max-width: 1124px) {
+    .Left button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+}
+@media screen and (max-width: 375px) {
+    .Left button {
+        height: 30px;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+}
+
+.Svg {
+    border-radius: 100%;
+}
+.Icon {
+    color: #a9db51;
+}
+
+.Right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 100px 100px 100px 0;
+    gap: 20px;
+}
+@media screen and (max-width: 1220px) {
+    .Right {
+        height: 90vh;
+        padding: 0;
+        padding: 100px 100px 100px 0;
+    }
+}
+@media screen and (max-width: 1124px) {
+    .Right {
+        height: 80vh;
+        padding: 50px 50px 50px 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Right {
+        padding: 50px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 610px) {
+    .Right {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Right {
+        height: 60vh;
+        padding: 35px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .Right {
+        height: 50vh;
+        padding: 24px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Right {
+        gap: 10px;
+    }
+}
+
+.Right .Top {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    gap: 20px;
+}
+
+.Right .Bottom {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    gap: 20px;
+}
+@media screen and (max-width: 1220px) {
+    .Right .Top {
+        gap: 20px;
+    }
+    .Right .Bottom {
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Right .Top {
+        width: 100%;
+        height: 50%;
+    }
+
+    .Right .Bottom {
+        width: 100%;
+        height: 50%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .Right .Top {
+        width: 100%;
+        height: 50%;
+    }
+
+    .Right .Bottom {
+        width: 100%;
+        height: 50%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Right .Top {
+        gap: 10px;
+    }
+
+    .Right .Bottom {
+        gap: 10px;
+    }
+}
+
+.Hero__Image1 {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.Hero__Image1 .Image1 {
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%
+}
+
+.Hero__Image2 {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.Hero__Image2 .Image2 {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.Hero__Image3 {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.Hero__Image3 .Image3 {
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.Hero__Image4 {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+}
+.Hero__Image4 .Image4 {
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}

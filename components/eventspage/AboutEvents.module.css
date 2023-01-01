@@ -1,0 +1,238 @@
+.AboutEvents {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 100px;
+    background-color: #F1DFDF;
+    overflow: hidden;
+}
+@media screen and (max-width: 320px) {
+    .AboutEvents {
+        margin-bottom: 50px;
+    }
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1880px;
+    padding: 100px 200px;
+}
+@media screen and (max-width: 1690px) {
+    .Container {
+        padding: 100px 100px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .Container {
+        padding: 100px 0;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .Container {
+        gap: 0;
+    }
+}
+
+.Title {
+    position: relative;
+    width: 50%;
+    height: fit-content;
+    text-align: center;
+}
+
+@media screen and (max-width: 1124px) {
+    .Title {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Title {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Title {
+        padding: 35px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Title {
+        padding: 20px;
+    }
+}
+
+.Title h2 {
+    margin-bottom: 50px;
+    font-size: 4rem;
+    line-height: 110%;
+    font-weight: 500;
+    letter-spacing: -1.5px;
+}
+
+@media screen and (max-width: 1124px) {
+    .Title h2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Title h2 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Title h2 {
+        font-size: 2.75rem;
+    }
+}
+.Cards {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    padding: 0 100px;
+    gap: 30px;
+}
+@media screen and (max-width: 1124px) {
+    .Cards {
+        padding: 0 50px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Cards {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Cards {
+        padding: 35px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Cards {
+        padding: 20px;
+    }
+}
+.Cards .Top {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    gap: 30px;
+}
+@media screen and (max-width: 1124px) {
+    .Cards .Top {
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .Cards .Top {
+        flex-direction: column;
+    }
+}
+.Cards .Bottom {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    gap: 30px;
+}
+@media screen and (max-width: 1124px) {
+    .Cards .Bottom {
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .Cards .Bottom {
+        flex-direction: column;
+    }
+}
+.Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    padding: 30px;
+    text-align: center;
+    gap: 30px;
+    border: 1px solid #3e3e3e63;
+    border-radius: 30px;
+}
+@media screen and (max-width: 1220px) {
+    .Card {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .Card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Card {
+        height: fit-content;
+    }
+}
+.Card h3 {
+    font-size: 30px;
+    margin: 0;
+}
+.Card h3 {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1124px) {
+    .Card h3 {
+        letter-spacing: normal;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Card h3 {
+        letter-spacing: normal;
+    }
+}
+
+.Card p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+@media screen and (max-width: 1124px) {
+    .Card p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Card p {
+        font-size: 14px;
+    }
+}
+.Svg {
+    background-color: #3e3e3e;
+    border-radius: 100%;
+    padding: 4px;
+}
