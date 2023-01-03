@@ -37,7 +37,7 @@ h6 {
 
 p,
 a,
-li {
+li, button {
   font-family: 'Inter';
   color: #3f3f3f;
 }
@@ -69,6 +69,12 @@ a {
     h5,
     h6 {
       color: #3e3e3e;
+    }
+    p,
+    a,
+    li,
+    button {
+      color: #3f3f3f;
     }
     .nav-bar-bg {
       background-color: #f7f7f7;
