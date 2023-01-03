@@ -121,7 +121,11 @@
     border-radius: 30px;
     gap: 30px;
 }
-
+@media screen and (max-height: 670px) {
+    .Card1 {
+        height: 55vh;
+    }
+}
 .Card1 .Left {
     position: relative;
     display: flex;
@@ -386,6 +390,11 @@
     height: 40vh;
     border-radius: 30px;
     gap: 30px;
+}
+@media screen and (max-height: 670px) {
+    .Card2 {
+        height: 55vh;
+    }
 }
 .Card2 .Left {
     position: relative;

@@ -16,6 +16,11 @@
         margin-bottom: 50px;
     }
 }
+@media screen and (max-height: 670px) {
+    .Hero {
+        height: 120vh;
+    }
+}
 .Container {
     display: flex;
     position: relative;

@@ -1,7 +1,7 @@
 .Speakers {
     position: relative;
     display: flex;
-        justify-content: center;
+    justify-content: center;
     width: 100%;
     height: fit-content;
     margin-bottom: 100px;
@@ -57,6 +57,11 @@
     height: 70vh;
     padding: 0 100px;
 
+}
+@media screen and (max-height: 670px) {
+    .Keynote {
+        height: 80vh;
+    }
 }
 @media screen and (max-width: 1460px) {
     .Keynote {
@@ -201,7 +206,11 @@
         height: 50vh;
     }
 }
-
+@media screen and (max-height: 670px) {
+    .Image {
+        height: 75vh;
+    }
+}
 .Image .Keynote__image {
     border-top-right-radius: 50%;
     border-bottom-left-radius: 50%;
