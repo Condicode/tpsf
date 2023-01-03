@@ -37,7 +37,7 @@ function Reviews() {
       })
       .fromTo(q("#card1-reviews"), {
         opacity: 0,
-        y: 150
+        y: 100
       },
       {
       scrollTrigger: {
@@ -53,7 +53,7 @@ function Reviews() {
       })
       .fromTo(q("#card2-reviews"), {
         opacity: 0,
-        y: 100
+        y: 120
       },
       {
       scrollTrigger: {
@@ -70,7 +70,7 @@ function Reviews() {
       })
       .fromTo(q("#card3-reviews"), {
         opacity: 0,
-        y: 200
+        y: 140
       },
       {
       scrollTrigger: {
@@ -87,7 +87,7 @@ function Reviews() {
       })
       .fromTo(q("#card4-reviews"), {
         opacity: 0,
-        y: 300
+        y: 160
       },
       {
       scrollTrigger: {
@@ -104,7 +104,7 @@ function Reviews() {
       })
       .fromTo(q("#card5-reviews"), {
         opacity: 0,
-        y: 100
+        y: 180
       },
       {
       scrollTrigger: {
@@ -121,7 +121,7 @@ function Reviews() {
       })
       .fromTo(q("#card6-reviews"), {
         opacity: 0,
-        y: 300
+        y: 200
       },
       {
       scrollTrigger: {
