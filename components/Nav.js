@@ -33,6 +33,7 @@ function Nav()  {
   return (
     <div >
     <div className={showBackground ? 'nav-bar-bg' : 'Nav'}>
+    <div className="Container">
         <div className={styles.Left}>
             <motion.div className={styles.Logo__image}
             initial={{ opacity: 0, x: -20 }}
@@ -229,6 +230,7 @@ function Nav()  {
         <p>Twitter</p>
         <span></span>
         <p>Instagram</p>
+        </div>
         </div>
         </div>
         </div>

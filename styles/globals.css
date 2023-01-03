@@ -86,11 +86,10 @@ a {
 .nav-bar-bg {
   position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: fit-content;
     width: 100%;
-    padding: 30px 150px;
     background-color: #f7f7f7;
     transition: all .3s ease-out;
     z-index: 100;
@@ -98,28 +97,31 @@ a {
 .Nav {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: fit-content;
   width: 100%;
-  padding: 30px 150px;
   background-color: #f7f7f7;
   z-index: 100;
 }
+.Container {
+  position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  padding: 30px 150px;
+  width: 100%;
+  height: 100%;
+    max-width: 1880px;
+}
 @media screen and (max-width: 1440px) {
-  .Nav {
-    padding: 30px 50px;
-  }
-    .nav-bar-bg {
+    .Container {
       padding: 30px 50px;
     }
 }
 
 @media screen and (max-width: 420px) {
-  .Nav {
-    padding: 30px 24px;
-  }
-    .nav-bar-bg {
+    .Container {
       padding: 30px 24px;
     }
   
