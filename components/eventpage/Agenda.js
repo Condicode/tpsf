@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from './Agenda.module.css'
 import Image from 'next/image'
-import AgendaImage from '../../images/agenda.webp'
-import Speaker1 from '../../images/Mbena-modified.png'
 import Speaker2 from '../../images/gugu.jpeg'
 import Speaker3 from '../../images/china.jpg'
 import { gsap } from "gsap";
