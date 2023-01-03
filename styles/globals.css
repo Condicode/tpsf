@@ -93,6 +93,7 @@ a {
     background-color: #f7f7f7;
     transition: all .3s ease-out;
     z-index: 100;
+    overflow: hidden;
 }
 .Nav {
   position: relative;
@@ -103,6 +104,7 @@ a {
   width: 100%;
   background-color: #f7f7f7;
   z-index: 100;
+  overflow: hidden;
 }
 .Container {
   position: relative;
@@ -229,6 +231,7 @@ a {
   transform: translateX(0);
   opacity: 1;
   visibility: visible;
+  overflow: hidden;
 }
 @media screen and (max-width: 420px) {
   .dropdown {

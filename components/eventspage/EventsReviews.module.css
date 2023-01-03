@@ -93,11 +93,6 @@
     width: 100%;
     padding: 0 100px;
 }
-@media screen and (max-height: 670px) {
-    .Testimonies {
-        grid-template-rows: 45vh 20vh 20vh 45vh;
-    }
-}
 
 @media screen and (max-width: 1460px) {
     .Testimonies {

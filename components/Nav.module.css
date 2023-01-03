@@ -67,6 +67,7 @@
     display: flex;
     align-items: center;
     gap: 30px;
+    overflow: hidden;
 }
 @media screen and (max-width: 1024px) {
     .Right {

@@ -17,11 +17,6 @@
         margin-bottom: 50px;
     }
 }
-@media screen and (max-height: 670px) {
-    .Exhibitor {
-        height: 80vh;
-    }
-}
 .Container {
     display: flex;
     position: relative;
