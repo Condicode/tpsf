@@ -62,6 +62,20 @@ a {
     color: #3e3e3e;
     background: #f7f7f7;
   }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: #3e3e3e;
+    }
+    .nav-bar-bg {
+      background-color: #f7f7f7;
+    }
+    .Nav {
+      background-color: #f7f7f7;
+    }
 }
 .nav-bar-bg {
   position: relative;

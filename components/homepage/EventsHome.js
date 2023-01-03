@@ -69,7 +69,7 @@ function EventsHome() {
         opacity: 1,
       })
       .fromTo(q("#image-eventshome"), {
-        opacity: 0,
+        opacity: .5,
         y: 30,
         scale: .7,
         borderRadius: '100%'
@@ -78,7 +78,7 @@ function EventsHome() {
       scrollTrigger: {
         trigger: '#image-eventshome',
         scrub: 1,
-        start: 'top 90%',
+        start: 'top 95%',
         endTrigger: '',
         end: "+=500",
       },
@@ -95,7 +95,7 @@ function EventsHome() {
       gsap.to(currentTarget, { borderRadius: "0 50% 50% 50%", scale: .9, ease: "power2.out", delay: .1 });
     };
     const onLeave = ({ currentTarget }) => {
-      gsap.to(currentTarget, { borderRadius: "50% 0 50% 50%", scale: 1, ease: "power2.out", delay: .1 });
+      gsap.to(currentTarget, { borderRadius: "50% 0 50% 50%" , scale: 1, ease: "power2.out", delay: .1 });
     };
   return (
     <div className={styles.EventsHome}>

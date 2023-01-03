@@ -365,12 +365,7 @@
 }
 
 .Speaker__Cards p {
-    font-size: 18px;
-}
-@media screen and (max-width: 1124px) {
-    .Speaker__Cards p {
-        font-size: 16px;
-    }
+    font-size: 16px;
 }
 
 @media screen and (max-width: 375px) {
@@ -535,6 +530,9 @@
         padding: 10px 20px;
         font-size: 16px;
     }
+    .Other__speakers button:hover .Button__inner {
+        transform: translateY(-33px);
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -542,6 +540,9 @@
         height: 30px;
         padding: 5px 10px;
         font-size: 14px;
+    }
+    .Other__speakers button:hover .Button__inner {
+        transform: translateY(-30px);
     }
 
 }

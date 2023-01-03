@@ -152,12 +152,10 @@ function AboutEvent() {
     <div className={styles.Card} id='card1-aboutevent'>
     <h3>Virtual Event</h3>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum non optio tempora nihil placeat modi.</p>
-    <button>Register</button>
     </div>
     <div className={styles.Card} id='card2-aboutevent'>
     <h3>In-person Event</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem eos, nobis libero vel quis laborum.</p>
-    <button>Register</button>
     </div>
     </div>
     </div>

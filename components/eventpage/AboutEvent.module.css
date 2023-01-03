@@ -182,6 +182,10 @@
     padding: 30px;
     border-radius: 30px;
 }
+.Card:nth-child(2) {
+    background-color: #F1DFDF;
+}
+
 @media screen and (max-width: 560px) {
     .Card {
         height: fit-content;
@@ -201,7 +205,6 @@
 
 .Cards .Card p {
     font-size: 18px;
-    margin-bottom: 30px;
 }
 @media screen and (max-width: 1124px) {
     .Cards .Card p {
@@ -216,7 +219,7 @@
 }
 .Cards .Card button {
     width: fit-content;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -250,6 +253,9 @@
         padding: 0 50px;
         gap: 20px;
     }
+}
+.Bottom .Card {
+    background-color: #e8f2ee;
 }
 
 @media screen and (max-width: 768px) {

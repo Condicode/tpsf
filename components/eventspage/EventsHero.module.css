@@ -196,6 +196,9 @@
         padding: 10px 20px;
         font-size: 16px;
     }
+    .Top button:hover .Button__inner {
+        transform: translateY(-33px);
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -203,6 +206,9 @@
         height: 30px;
         padding: 5px 10px;
         font-size: 14px;
+    }
+    .Top button:hover .Button__inner {
+        transform: translateY(-30px);
     }
 }
 

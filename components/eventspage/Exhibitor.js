@@ -69,7 +69,7 @@ function Exhibitor() {
       })
       .fromTo(q("#exhibitor-card1"), {
         opacity: 0,
-        scale: 0
+        y: 30
       },
       {
       scrollTrigger: {
@@ -81,14 +81,15 @@ function Exhibitor() {
       },
         opacity: 1,
         duration: 1,
-        scale: 1
+        y: 0
       })
       .fromTo(q("#exhibitor-card2"), {
-        scale: 0
+        opacity: 0,
+        y: 30
       },
       {
       scrollTrigger: {
-        trigger: '#exhibitor-card1',
+        trigger: '#exhibitor-card2',
         scrub: 1,
         start: 'top 90%',
         endTrigger: '',
@@ -96,37 +97,42 @@ function Exhibitor() {
       },
         
         duration: 1,
-        scale: 1
+        opacity: 1,
+        y: 0
       })
       .fromTo(q("#exhibitor-card3"), {
-        scale: 0
+        opacity: 0,
+        y: 30
       },
       {
       scrollTrigger: {
         trigger: '#exhibitor-card3',
-        scrub: 1.5,
-        start: 'top 95%',
+        scrub: 1,
+        start: 'top 90%',
         endTrigger: '',
         end: "+=500",
       },
         
         duration: 1,
-        scale: 1
+        opacity: 1,
+        y: 0
       })
       .fromTo(q("#exhibitor-card4"), {
-        scale: 0
+        opacity: 0,
+        y: 30
       },
       {
       scrollTrigger: {
-        trigger: '#exhibitor-card3',
-        scrub: 1.5,
-        start: 'top 95%',
+        trigger: '#exhibitor-card4',
+        scrub: 1,
+        start: 'top 90%',
         endTrigger: '',
         end: "+=500",
       },
         
         duration: 1,
-        scale: 1
+        opacity: 1,
+        y: 0
       });
 }, []);
 
@@ -153,22 +159,14 @@ function Exhibitor() {
           <div className={styles.Top}>
             <div className={styles.Top__Left}>
               <motion.div className={styles.Card}
-              initial={{ scale: 0, opacity: 0 }}
-              whileInView={{ scale: 1, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: .6, delay: .4, ease: "easeInOut" }}
-              onMouseEnter={onEnter} onMouseLeave={onLeave}>
+              onMouseEnter={onEnter} onMouseLeave={onLeave} id='exhibitor-card1'>
                 <h3>Corporate</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati unde illum, veniam similique qui impedit?</p>
               </motion.div>
             </div>
             <div className={styles.Top__Right}>
               <motion.div className={styles.Card}
-              initial={{ scale: 0, opacity: 0 }}
-              whileInView={{ scale: 1, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: .6, delay: .8, ease: "easeInOut" }}
-              onMouseEnter={onEnter} onMouseLeave={onLeave}>
+              onMouseEnter={onEnter} onMouseLeave={onLeave} id='exhibitor-card2'>
                 <h3>Education</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati unde illum, veniam similique qui impedit?</p>
               </motion.div>
@@ -177,22 +175,14 @@ function Exhibitor() {
           <div className={styles.Bottom}>
             <div className={styles.Bottom__Left}>
               <motion.div className={styles.Card}
-              initial={{ scale: 0, opacity: 0 }}
-              whileInView={{ scale: 1, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: .6, delay: 1.2, ease: "easeInOut" }}
-              onMouseEnter={onEnter} onMouseLeave={onLeave}>
+              onMouseEnter={onEnter} onMouseLeave={onLeave} id='exhibitor-card3'>
                 <h3>Nonprofit</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati unde illum, veniam similique qui impedit?</p>
               </motion.div>
             </div>
             <div className={styles.Bottom__Right}>
               <motion.div className={styles.Card}
-              initial={{ scale: 0, opacity: 0 }}
-              whileInView={{ scale: 1, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: .6, delay: 1.6, ease: "easeInOut" }}
-              onMouseEnter={onEnter} onMouseLeave={onLeave}>
+              onMouseEnter={onEnter} onMouseLeave={onLeave} id='exhibitor-card4'>
                 <h3>Oil and Gas</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati unde illum, veniam similique qui impedit?</p>
               </motion.div>

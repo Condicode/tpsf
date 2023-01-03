@@ -347,7 +347,7 @@
 }
 
 .CTA button:hover .Button__inner {
-    transform: translateY(-35px);
+    transform: translateY(-32px);
     transition: all .3s ease-in-out;
 }
 @media screen and (max-width: 1124px) {
@@ -355,12 +355,14 @@
         padding: 10px 20px;
         font-size: 14px;
     }
+    .CTA button:hover .Button__inner {
+        transform: translateY(-30px);
+    }
 }
 @media screen and (max-width: 375px) {
     .CTA button {
         height: 30px;
         padding: 5px 10px;
-        font-size: 14px;
     }
 
 }

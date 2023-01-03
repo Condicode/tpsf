@@ -248,7 +248,7 @@
     margin-bottom: 20px;
     letter-spacing: normal;
 }
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1280px) {
     .Testimonies h3 {
         font-size: 24px;
     }
@@ -271,7 +271,7 @@
     font-weight: 600;
     letter-spacing: normal;
 }
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 1280px) {
     .Testimonies h4 {
         font-size: 18px;
     }
@@ -280,7 +280,7 @@
 .Testimonies p {
     font-size: 16px;
 }
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 1280px) {
     .Testimonies p {
         font-size: 15px;
     }

@@ -4,11 +4,6 @@ import styles from './Nav.module.css'
 import Image from 'next/image'
 import Logo from '../images/tpsf-logo.png'
 import Link from 'next/link'
-import HomeSharpIcon from '@mui/icons-material/HomeSharp';
-import InfoSharpIcon from '@mui/icons-material/InfoSharp';
-import EventAvailableSharpIcon from '@mui/icons-material/EventAvailableSharp';
-import AttachMoneySharpIcon from '@mui/icons-material/AttachMoneySharp';
-import PhoneCallbackSharpIcon from '@mui/icons-material/PhoneCallbackSharp';
 import { motion } from "framer-motion";
 
 function Nav()  {
@@ -56,6 +51,7 @@ function Nav()  {
                         color: '#a9db51',
                         transition: { duration: .1 },
                     }}
+                whileTap={{ scale: .9, transition: { duration: .1 }}}
                 initial={{ opacity: 0, x: -20, }}
                 animate={{ opacity: 1, x: 0,
                 transition: { delay: .2, duration: 1, ease: "easeInOut" } }}
@@ -66,6 +62,7 @@ function Nav()  {
                         color: '#a9db51',
                         transition: { duration: .1 },
                     }}
+                whileTap={{ scale: .9, transition: { duration: .1 }}}
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0, 
                 transition: { delay: .3, duration: 1, ease: "easeInOut" } }}
@@ -78,6 +75,7 @@ function Nav()  {
                         color: '#a9db51',
                         transition: { duration: .1 },
                     }}
+                whileTap={{ scale: .9, transition: { duration: .1 }}}
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0,
                 transition: { delay: .4, duration: 1, ease: "easeInOut" } }}
@@ -88,6 +86,7 @@ function Nav()  {
                         color: '#a9db51',
                         transition: { duration: .1 },
                     }}
+                whileTap={{ scale: .9, transition: { duration: .1 }}}
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0,
                 transition: { delay: .5, duration: 1, ease: "easeInOut" } }}
@@ -172,7 +171,7 @@ function Nav()  {
         <Link className="link" href="/">
         <motion.p
         whileTap={{
-            scale: 1.2,
+            scale: .9,
             color: '#a9db51',
             transition: { duration: .1 },
         }}
@@ -183,7 +182,7 @@ function Nav()  {
         <Link href="#">
         <motion.p
         whileTap={{
-            scale: 1.2,
+            scale: .9,
             color: '#a9db51',
             transition: { duration: .1 },
         }}
@@ -194,7 +193,7 @@ function Nav()  {
         <Link href="/events">
         <motion.p
         whileTap={{
-            scale: 1.2,
+            scale: .9,
             color: '#a9db51',
             transition: { duration: .1 },
         }}
@@ -205,7 +204,7 @@ function Nav()  {
         <Link href="#">
         <motion.p
         whileTap={{
-            scale: 1.2,
+            scale: .9,
             color: '#a9db51',
             transition: { duration: .1 },
         }}
@@ -216,7 +215,7 @@ function Nav()  {
         <Link href="#">
         <motion.p
         whileTap={{
-            scale: 1.2,
+            scale: .9,
             color: '#a9db51',
             transition: { duration: .1 },
         }}

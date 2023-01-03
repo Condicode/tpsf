@@ -66,6 +66,11 @@
         padding: 20px;
     }
 }
+@media screen and (max-width: 375px) {
+    .Cards {
+        gap: 10px;
+    }
+}
 .Left {
     display: flex;
     justify-content: center;
@@ -87,7 +92,7 @@
         gap: 20px;
     }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
     .Left {
         flex-direction: column;
     }
@@ -108,7 +113,7 @@
     border: 1px solid #3e3e3e63;
     text-align: center;
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
     .Card {
         padding: 20px;
         height: fit-content;
