@@ -1,7 +1,10 @@
 import React from 'react'
 import styles from './Gallerly.module.css'
 import Image from 'next/image'
-import img1 from '../../images/Hero.jpg'
+import img1 from '../../images/events1.jpg'
+import img2 from '../../images/events2.jpg'
+import img3 from '../../images/events3.jpg'
+import img4 from '../../images/events4.jpg'
 import { gsap } from "gsap";
 import { useRef, useLayoutEffect} from 'react'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger.js'
@@ -134,19 +137,19 @@ function Gallerly() {
     <Image className={styles.Image1__border} src={img1} layout='fill' objectFit='cover' alt=''></Image>
     </div>
     <div className={styles.Image2} id='image2'>
-    <Image className={styles.Image2__border} src={img1} layout='fill' objectFit='cover' alt=''></Image>
+    <Image className={styles.Image2__border} src={img2} layout='fill' objectFit='cover' alt=''></Image>
     </div>
     <div className={styles.Image3} id='image3'>
-    <Image className={styles.Image3__border} src={img1} layout='fill' objectFit='cover' alt=''></Image>
+    <Image className={styles.Image3__border} src={img3} layout='fill' objectFit='cover' alt=''></Image>
     </div>
     <div className={styles.Image4} id='image4'>
-    <Image className={styles.Image4__border} src={img1} layout='fill' objectFit='cover' alt=''></Image>
+    <Image className={styles.Image4__border} src={img4} layout='fill' objectFit='cover' alt=''></Image>
     </div>
     <div className={styles.Image5} id='image5'>
     <Image className={styles.Image5__border} src={img1} layout='fill' objectFit='cover' alt=''></Image>
     </div>
     <div className={styles.Image6} id='image6'>
-    <Image className={styles.Image6__border} src={img1} layout='fill' objectFit='cover' alt=''></Image>
+    <Image className={styles.Image6__border} src={img2} layout='fill' objectFit='cover' alt=''></Image>
     </div>
     </div>
     </div>

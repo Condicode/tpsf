@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from './UpcomingEvents.module.css'
 import Image from 'next/image'
-import EventImage from '../../images/events1.jpg'
+import img1 from '../../images/events1.jpg'
+import img2 from '../../images/events2.jpg'
 import Link from 'next/link'
 import { gsap } from "gsap";
 import { useRef, useLayoutEffect} from 'react'
@@ -137,14 +138,14 @@ function UpcomingEvents() {
         </div>
         <div className={styles.Right} id='card1-right'>
         <div className={styles.EventsHero__Image}>
-        <Image className={styles.Image} src={EventImage} layout='fill' objectFit='cover' alt=''></Image>
+        <Image className={styles.Image} src={img1} layout='fill' objectFit='cover' alt=''></Image>
         </div>
         </div>
         </div>
         <div className={styles.Card2}>
         <div className={styles.Left} id='card2-left'>
         <div className={styles.EventsHero__Image}>
-        <Image className={styles.Image} src={EventImage} layout='fill' objectFit='cover' alt=''></Image>
+        <Image className={styles.Image} src={img2} layout='fill' objectFit='cover' alt=''></Image>
         </div>
         </div>
         <div className={styles.Right} id='card2-right'>

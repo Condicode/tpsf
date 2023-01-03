@@ -2,7 +2,9 @@ import React from 'react'
 import styles from './EventsHero.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import EventImage from '../../images/events1.jpg'
+import img1 from '../../images/events1.jpg'
+import img2 from '../../images/events2.jpg'
+import img3 from '../../images/Hero.jpg'
 import { motion } from "framer-motion";
 
 function EventsHero() {
@@ -42,13 +44,13 @@ function EventsHero() {
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 1.5, ease: "easeInOut" }}>
-            <Image className={styles.Image} src={EventImage} layout='fill' objectFit='cover' alt=''></Image>
+            <Image className={styles.Image} src={img1} layout='fill' objectFit='cover' alt=''></Image>
           </motion.div>
           <motion.div className={styles.EventsHero__Image}
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 1.7, ease: "easeInOut" }}>
-            <Image className={styles.Image} src={EventImage} layout='fill' objectFit='cover' alt=''></Image>
+            <Image className={styles.Image} src={img2} layout='fill' objectFit='cover' alt=''></Image>
           </motion.div>
           </div>
           <div className={styles.Right}>
@@ -56,7 +58,7 @@ function EventsHero() {
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 1.9, ease: "easeInOut" }}>
-            <Image className={styles.Image} src={EventImage} layout='fill' objectFit='cover' alt=''></Image>
+            <Image className={styles.Image} src={img3} layout='fill' objectFit='cover' alt=''></Image>
           </motion.div>
           </div>
         </div>

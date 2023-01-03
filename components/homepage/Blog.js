@@ -1,7 +1,9 @@
 import React from 'react'
 import styles from './Blog.module.css'
 import Image from 'next/image'
-import img1 from '../../images/Hero.jpg'
+import img1 from '../../images/events1.jpg'
+import img2 from '../../images/events2.jpg'
+import img3 from '../../images/events3.jpg'
 import { gsap } from "gsap";
 import { useRef, useLayoutEffect} from 'react'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger.js'
@@ -345,7 +347,7 @@ function Blog() {
           <div className={styles.Two} id='card2-blog'>
             <div className={styles.Top}>
             <div className={styles.Top__image}>
-            <Image className={styles.Image} src={img1} layout='fill' objectFit='cover' alt='' onMouseEnter={onEnter} onMouseLeave={onLeave}></Image>
+            <Image className={styles.Image} src={img2} layout='fill' objectFit='cover' alt='' onMouseEnter={onEnter} onMouseLeave={onLeave}></Image>
             </div>
             </div>
             <div className={styles.Bottom}>
@@ -365,7 +367,7 @@ function Blog() {
           <div className={styles.Three} id='card3-blog'>
             <div className={styles.Top}>
             <div className={styles.Top__image}>
-            <Image className={styles.Image} src={img1} layout='fill' objectFit='cover' alt='' onMouseEnter={onEnter} onMouseLeave={onLeave}></Image>
+            <Image className={styles.Image} src={img3} layout='fill' objectFit='cover' alt='' onMouseEnter={onEnter} onMouseLeave={onLeave}></Image>
             </div>
             </div>
             <div className={styles.Bottom}>
