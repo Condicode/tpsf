@@ -2,12 +2,19 @@
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    height: fit-content;
+    height: 100vh;
+    min-height: 830px;
     margin-bottom: 100px;
     background-color: #e8f2ee;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 880px) {
+    .EventsHome {
+        min-height: 0;
+    }
+}
+@media screen and (max-width: 768px) {
     .EventsHome {
         height: fit-content;
     }
@@ -24,7 +31,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    padding: 200px;
+    padding: 100px 200px;
     gap: 30px;
     max-width: 1880px;
 }
@@ -216,25 +223,30 @@
 .EventsHome__Image {
     position: relative;
     width: 100%;
-    height: 65vh;
-    max-height: 650px;
+    height: 100%;
 }
 @media screen and (max-width: 1440px) {
     .EventsHome__Image {
         width: 90%;
-        height: 65vh;
+        height: 100%;
     }
 }
 @media screen and (max-width: 1310px) {
     .EventsHome__Image {
         width: 100%;
-        height: 65vh;
+        height: 100%;
         }
 }
 @media screen and (max-width: 1124px) {
     .EventsHome__Image {
         width: 100%;
-        height: 55vh;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 880px) {
+    .EventsHome__Image {
+        width: 100%;
+        height: 80%;
     }
 }
 @media screen and (max-width: 768px) {

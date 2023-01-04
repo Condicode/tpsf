@@ -4,8 +4,14 @@
     justify-content: center;
     width: 100%;
     height: 100vh;
+    min-height: 830px;
     margin-bottom: 100px;
     
+}
+@media screen and (max-width: 880px) {
+    .AboutHome {
+        min-height: 0;
+    }
 }
 @media screen and (max-width: 768px) {
     .AboutHome {
